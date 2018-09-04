@@ -1,0 +1,9 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    "transform-dirname-filename",
+    ["babel-plugin-root-import", {
+      "rootPathSuffix": "src"
+    }]
+  ]
+}

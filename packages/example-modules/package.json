@@ -1,0 +1,24 @@
+{
+  "name": "example-modules",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testRegex": "(\\.(test|spec))\\.(js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "../../node_modules",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/",
+      "<rootDir>/dist/"
+    ]
+  }
+}

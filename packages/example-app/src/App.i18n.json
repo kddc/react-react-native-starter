@@ -1,0 +1,12 @@
+{
+  "en": {
+    "get_started": "To get started, edit App.tsx",
+    "instructions_ios": "Press Cmd+R to reload. Cmd+D or shake for dev menu",
+    "instructions_android": "Double tap R on your keyboard to reload. Shake or press menu button for dev menu"
+  },
+  "de": {
+    "get_started": "Um zu starten, bearbeite die App.tsx",
+    "instructions_ios": "Drücke Cmd+R zum neu laden. Schüttel das Gerät oder drücke Cmd+D um das Dev Menü anzuzeigen",
+    "instructions_android": "Drücker zweimal R auf der Tastatur um neu zu laden. Schüttel das Gerät oder drücke den Menü Button, um das Dev Menü anzuzeigen"
+  }
+}

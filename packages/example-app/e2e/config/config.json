@@ -1,0 +1,8 @@
+{
+  "rootDir": "../../",
+  "setupTestFrameworkScriptFile": "./e2e/init.js",
+  "preset": "react-native",
+  "transform": {
+    "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "module": "es6",
+    "target": "es6",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+  },
+  "files": ["./lib.d.ts"],
+  "include": ["packages/**/*"],
+}

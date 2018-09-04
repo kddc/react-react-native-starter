@@ -1,0 +1,29 @@
+{
+  "name": "example-i18n",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "dependencies": {
+    "i18next": "^11.6.0"
+  },
+  "devDependencies": {
+    "@types/i18next": "^8.4.5",
+    "typescript": "3.0.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testRegex": "(\\.(test|spec))\\.(js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "../../node_modules",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/",
+      "<rootDir>/dist/"
+    ]
+  }
+}
